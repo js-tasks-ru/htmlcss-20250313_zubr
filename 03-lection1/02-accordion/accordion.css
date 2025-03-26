@@ -8,7 +8,7 @@
     background-color: var(--white);
 }
 
-.accordion_item {
+.accordion__item {
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     margin-bottom: 8px;
@@ -17,17 +17,17 @@
         margin-bottom: 0;
     }
 
-    &[open] .accordion_summary {
+    &[open] .accordion__summary {
         padding-bottom: 16px;
     }
 }
 
-.accordion_summary {
+.accordion__summary {
     display: block;
     padding: 24px 32px;
 }
 
-.accordion_content {
+.accordion__content {
     margin: 0;
     padding: 0 48px 32px 32px;
     color: var(--grey-4);
