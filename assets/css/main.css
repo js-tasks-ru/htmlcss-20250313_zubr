@@ -24,7 +24,7 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: var(--blue-1);
     --secondary: var(--purple);
 }
 

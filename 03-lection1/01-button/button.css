@@ -1,6 +1,4 @@
 .button {
-    --primary: var(--blue-1);
-
     color: var(--grey-4);
     background-color: var(--white);
     font-family: 'Roboto', sans-serif;
@@ -45,5 +43,5 @@
 
 .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
 }
