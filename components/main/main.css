@@ -1,4 +1,10 @@
 .main {
     background-color: #F9FAFC;
-    min-height: 1036px;
+    padding: 68px 0;
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
