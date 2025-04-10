@@ -5,6 +5,7 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/page/page.css';
+@import '../../components/button/button.css';
 
 :root {
     --white: #ffffff;
@@ -28,6 +29,11 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0;
 }
