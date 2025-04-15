@@ -1,6 +1,4 @@
 .card {
-    width: 350px;
-    height: 367px;
     background: var(--white);
     background-color: #b48ad0; /* TODO remove when cards will ready  */
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
