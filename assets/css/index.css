@@ -31,7 +31,7 @@
     --primary: var(--blue-1);
     --secondary: var(--purple);
 
-    --container-width: 1110px;
+    --container-width-lg: 1110px;
 }
 
 body {
