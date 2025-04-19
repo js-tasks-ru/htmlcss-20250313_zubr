@@ -9,11 +9,6 @@
     gap: 16px;
 }
 
-.main__card {
-    width: 164px;
-    height: 210px;
-}
-
 @media screen and (min-width: 768px) {
     .main {
         padding: 68px 0 204px;
@@ -21,10 +16,5 @@
 
     .main__cards {
         gap: 30px;
-    }
-
-    .main__card {
-        width: 350px;
-        height: 367px;
     }
 }
