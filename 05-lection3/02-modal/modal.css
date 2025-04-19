@@ -1,0 +1,49 @@
+.modal {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__content {
+    width: 428px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 30px 40px 40px 33px;
+}
+
+.modal__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #334D6E;
+    margin-bottom: 14px;
+}
+
+.modal__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grey-4);
+}
+
+.modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+
+    /*reset button styles*/
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}

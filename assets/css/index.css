@@ -5,6 +5,7 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/page/page.css';
+@import '../../components/button/button.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
 
@@ -38,4 +39,9 @@ body {
 
 html, body {
     height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0;
 }
